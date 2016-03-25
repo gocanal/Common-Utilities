@@ -1,0 +1,25 @@
+25 Jun 2015
+-----------
+
+0. How to use this common utility in a project
+   In that project's Build Path -> Configure Build Path... -> Projects Tab -> Add
+   
+1. Finally decided to create a utility package. Common ones are:
+   . network
+   . data parsing
+   
+   commonly used external libraries are:
+   . Google GSON (gson-2.3.1) or Jackson
+   . Jsoup (jsoup-1.8.2)
+   . Apache commons
+   . Joda Time
+   . Language detection (langdetect and jsonic-1.2.0)
+   . String similarity
+   . Proxy detector (js.jar and proxy-vole_20131209)
+   . rome-1.5, rome-modules-1.5, room-utils-1.5 (requires jdom-2, slf4j-api) http://mvnrepository.com/artifact/com.rometools 
+
+
+11 Jul 2015
+-----------
+
+0. enabled twitter, rss and google plus service

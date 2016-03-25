@@ -1,0 +1,30 @@
+Dominant color, 15 Jan. 2016
+============================
+
+. thinking of using dominant color and color pallette for the photo blending project
+
+. https://github.com/SvenWoltmann/color-thief-java seems to have what I am looking for
+  tested the original javascript version (http://lokeshdhakar.com/projects/color-thief/), result is quite good.
+  it uses the paper http://www.leptonica.com/color-quantization.html 
+  
+  
+  
+. how to use
+
+  BufferedImage image;
+  // get dominant color
+  MMCQ.Cmap result = ColorThief.getColorMap (image, 5);
+  VBox dominantColor = result.vboxes.get(0);
+  
+  // get full palette
+  result = ColorThief.getColorMap(img, 10);
+  for (VBox vbox : result.vboxes) {
+  }
+  
+  // get color values from vbox
+  int[] rgb = vbox.avg(false);
+  // int [] rgb has r=[0], g[1], b=[2]
+  
+  // get volume and pixel count
+  int volume = vbox.volume (false);
+  int count = vbox.count (false);
