@@ -39,3 +39,10 @@
 -----------
 
 0. enabled twitter, rss and google plus service
+
+26 Mat 2016
+-----------
+
+0. Other open source packages used in this utility
+   Java Color Thief, by Sven Woltmann, Fonpit AG, https://github.com/SvenWoltmann/color-thief-java
+   
