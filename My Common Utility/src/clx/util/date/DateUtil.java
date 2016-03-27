@@ -191,4 +191,11 @@ public enum DateUtil {
 			
 		return "now";
 	}
+	
+	public int getDaysBetween (Date d1, Date d2) {
+		if (d1 == null || d2 == null)
+			return -1;
+		
+		return Days.daysBetween(new DateTime (d1), new DateTime (d2)).getDays();
+	}
 }

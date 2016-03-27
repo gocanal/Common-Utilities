@@ -9,15 +9,31 @@
    . data parsing
    
    commonly used external libraries are:
-   . Google GSON (gson-2.3.1) or Jackson
-   . Jsoup (jsoup-1.8.2)
-   . Apache commons
-   . Joda Time
-   . Language detection (langdetect and jsonic-1.2.0)
-   . String similarity
-   . Proxy detector (js.jar and proxy-vole_20131209)
-   . rome-1.5, rome-modules-1.5, room-utils-1.5 (requires jdom-2, slf4j-api) http://mvnrepository.com/artifact/com.rometools 
-
+	<classpathentry kind="lib" path="F:/Common Libraries/google+/libs/gson-2.1.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/jsoup/jsoup-1.8.1.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/langdetct-03-03-2014/lib/langdetect.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/language detect/jsonic-1.3.8.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/joda-time-2.4/joda-time-2.4.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/twitter4j/lib/twitter4j-core-4.0.3.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/rome/rome-1.5.1.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/rome/rome-modules-1.5.1.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/jdom/jdom2-2.0.6.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/slf4j-1.7.8/slf4j-api-1.7.8.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/rome/rome-utils-1.5.1.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/language detect/langid-java-1.0.0.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/google+/libs/google-api-client-1.20.0.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/google+/libs/google-http-client-1.20.0.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/google+/libs/google-oauth-client-1.20.0.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/google+/libs/google-oauth-client-java6-1.20.0.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/google+/google-api-services-plus-v1-rev219-1.20.0.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/google+/libs/google-oauth-client-jetty-1.20.0.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/google+/libs/google-http-client-jackson2-1.20.0.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/jackson/jackson-core-2.4.4.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/proxyvole/proxy-vole_20131209.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/proxyvole/js.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/flickr4java-2.16.jar"/>
+	<classpathentry kind="lib" path="F:/Common Libraries/log4j-1.2.17.jar"/>
+ 
 
 11 Jul 2015
 -----------

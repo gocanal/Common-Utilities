@@ -14,6 +14,7 @@ import clx.util.twitter.TwitterUtil;
  *
  */
 public class TestTwitter {
+	private static String key, secret, token, tokenSecret;
 
 	/**
 	 * @param args
@@ -33,6 +34,6 @@ public class TestTwitter {
 	}
 
 	private static void getLimit () {
-		TwitterUtil.getInstance().getRateLimitStatus();
+		TwitterUtil.getInstance(key, secret, token, tokenSecret).getRateLimitStatus();
 	}
 }
